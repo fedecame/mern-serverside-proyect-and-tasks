@@ -7,7 +7,7 @@ const conectarDB = async () => {
             useNewUrlParser: true,
             useUnifiedTopology: true,
             useFindAndModify: false,
-            dbNmae: 'merntasks'
+            dbName: 'merntasks'
         });
         console.log("DB conectada");
     } catch (error) {
